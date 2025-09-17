@@ -399,17 +399,17 @@ export class CrisisVideoService {
   private static getEmergencyResources(language: 'en' | 'hi' | 'mr') {
     const resources = {
       en: {
-        helpline: '988',
+        helpline: '+91 8142893100',
         textLine: 'Text HOME to 741741',
         emergency: '112'
       },
       hi: {
-        helpline: '988',
+        helpline: '+91 8142893100',
         textLine: 'HOME को 741741 पर टेक्स्ट करें',
         emergency: '112'
       },
       mr: {
-        helpline: '988',
+        helpline: '+91 8142893100',
         textLine: 'HOME ला 741741 ला टेक्स्ट करा',
         emergency: '112'
       }

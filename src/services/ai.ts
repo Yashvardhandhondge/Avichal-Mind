@@ -1716,18 +1716,18 @@ Consider keywords like: suicide, kill myself, want to die, end it all, self harm
     switch (crisisDetection.crisisType) {
       case 'suicidal':
         crisisResponse = language === 'hi' 
-          ? `मैं आपकी बात सुनकर बहुत चिंतित हूं। आपकी जिंदगी की कीमत है और आप अकेले नहीं हैं। कृपया तुरंत किसी संकट हेल्पलाइन (988) या मानसिक स्वास्थ्य पेशेवर से संपर्क करें। यदि आप तत्काल खतरे में हैं, तो आपातकालीन सेवाओं (112) को कॉल करें।`
+          ? `मैं आपकी बात सुनकर बहुत चिंतित हूं। आपकी जिंदगी की कीमत है और आप अकेले नहीं हैं। कृपया तुरंत किसी संकट हेल्पलाइन (+91 8142893100) या मानसिक स्वास्थ्य पेशेवर से संपर्क करें। यदि आप तत्काल खतरे में हैं, तो आपातकालीन सेवाओं (112) को कॉल करें।`
           : language === 'mr'
-          ? `मी तुमचे ऐकत आहे आणि खूप चिंतित आहे. तुमच्या जीवनाला मूल्य आहे आणि तुम्ही एकटे नाही आहात. कृपया त्वरित कोणत्याही संकट हेल्पलाइन (988) किंवा मानसिक आरोग्य व्यावसायिकांशी संपर्क साधा. जर तुम्ही त्वरित धोक्यात आहात, तर आणीबाणी सेवा (112) कॉल करा.`
-          : `I'm very concerned about what you're sharing. Your life has value and you are not alone. Please contact a crisis helpline (988) or mental health professional immediately. If you're in immediate danger, call emergency services (112).`;
+          ? `मी तुमचे ऐकत आहे आणि खूप चिंतित आहे. तुमच्या जीवनाला मूल्य आहे आणि तुम्ही एकटे नाही आहात. कृपया त्वरित कोणत्याही संकट हेल्पलाइन (+91 8142893100) किंवा मानसिक आरोग्य व्यावसायिकांशी संपर्क साधा. जर तुम्ही त्वरित धोक्यात आहात, तर आणीबाणी सेवा (112) कॉल करा.`
+          : `I'm very concerned about what you're sharing. Your life has value and you are not alone. Please contact a crisis helpline (+91 8142893100) or mental health professional immediately. If you're in immediate danger, call emergency services (112).`;
         break;
         
       case 'mental_breakdown':
         crisisResponse = language === 'hi'
-          ? `मैं समझता हूं कि आप बहुत कठिन समय से गुजर रहे हैं। यह ठीक है कि आप इस तरह महसूस कर रहे हैं। आपको तुरंत समर्थन की आवश्यकता है। कृपया किसी मानसिक स्वास्थ्य पेशेवर से संपर्क करें या संकट हेल्पलाइन (988) पर कॉल करें।`
+          ? `मैं समझता हूं कि आप बहुत कठिन समय से गुजर रहे हैं। यह ठीक है कि आप इस तरह महसूस कर रहे हैं। आपको तुरंत समर्थन की आवश्यकता है। कृपया किसी मानसिक स्वास्थ्य पेशेवर से संपर्क करें या संकट हेल्पलाइन (+91 8142893100) पर कॉल करें।`
           : language === 'mr'
-          ? `मी समजतो की तुम्ही खूप कठीण काळातून जात आहात. तुम्हाला असे वाटणे ठीक आहे. तुम्हाला त्वरित समर्थनाची गरज आहे. कृपया कोणत्याही मानसिक आरोग्य व्यावसायिकांशी संपर्क साधा किंवा संकट हेल्पलाइन (988) कॉल करा.`
-          : `I understand you're going through a very difficult time. It's okay to feel this way. You need immediate support. Please contact a mental health professional or call the crisis helpline (988).`;
+          ? `मी समजतो की तुम्ही खूप कठीण काळातून जात आहात. तुम्हाला असे वाटणे ठीक आहे. तुम्हाला त्वरित समर्थनाची गरज आहे. कृपया कोणत्याही मानसिक आरोग्य व्यावसायिकांशी संपर्क साधा किंवा संकट हेल्पलाइन (+91 8142893100) कॉल करा.`
+          : `I understand you're going through a very difficult time. It's okay to feel this way. You need immediate support. Please contact a mental health professional or call the crisis helpline (+91 8142893100).`;
         break;
         
       case 'panic_attack':

@@ -111,17 +111,17 @@ interface CrisisVideo {
 ## Emergency Resources Provided
 
 ### English
-- Crisis Helpline: 988
+- Crisis Helpline: +91 8142893100
 - Crisis Text Line: Text HOME to 741741
 - Emergency Services: 112
 
 ### Hindi
-- संकट हेल्पलाइन: 988
+- संकट हेल्पलाइन: +91 8142893100
 - संकट टेक्स्ट लाइन: HOME को 741741 पर टेक्स्ट करें
 - आपातकालीन सेवाएं: 112
 
 ### Marathi
-- संकट हेल्पलाइन: 988
+- संकट हेल्पलाइन: +91 8142893100
 - संकट टेक्स्ट लाइन: HOME ला 741741 ला टेक्स्ट करा
 - आणीबाणी सेवा: 112
 
